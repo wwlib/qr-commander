@@ -4,11 +4,10 @@ import Model from '../model/Model';
 import TopNav from './TopNav';
 import QRPanel from './QRPanel';
 import QRImagePanel from './QRImagePanel';
-import Code128Panel from './Code128Panel';
-import LogPanel from './LogPanel';
 
 const prettyjson = require('prettyjson');
 const QRCode = require('qrcode');
+const JsBarcode = require('jsbarcode');
 
 export interface ApplicationProps { model: Model }
 export interface ApplicationState {
@@ -79,10 +78,8 @@ export default class Application extends React.Component < ApplicationProps, App
         layout = <div>
             <TopNav  clickHandler={this.onTopNavClick.bind(this)} />
             <div className="panelContainer">
-                <QRPanel clickHandler={this.onPanelClick.bind(this)} dropdownHandler={this.onDropdownChange.bind(this)} />
+                <QRPanel clickHandler={this.onPanelClick.bind(this)} dropdownHandler={this.onDropdownChange.bind(this)} esmlExamples={this.props.model.esmlExamples} />
                 <QRImagePanel clickHandler={this.onPanelClick.bind(this)} QRImage={this.state.QRImage} />
-                <Code128Panel clickHandler={this.onPanelClick.bind(this)}/>
-                <LogPanel clickHandler={this.onPanelClick.bind(this)} log={this.state.log} />
             </div>
         </div>
         return layout;

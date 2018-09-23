@@ -23,7 +23,7 @@ export default class QRImagePanel extends React.Component<QRImagePanelProps, QRI
                 <div>
                     QR Image
                 </div>
-                <img src={this.props.QRImage} />
+                <img id="qrImage" src={this.props.QRImage} />
             </div>
         );
     }
