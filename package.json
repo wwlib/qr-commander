@@ -1,6 +1,6 @@
 {
   "name": "qr-commander",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
@@ -13,14 +13,22 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.16.3",
+    "prettyjson": "^1.2.1",
+    "qrcode": "^1.2.2",
     "react": "^16.3.2",
-    "react-dom": "^16.3.2"
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.3.2",
+    "react-select": "^2.0.0"
   },
   "devDependencies": {
     "@types/react": "^16.3.14",
+    "@types/react-bootstrap": "^0.32.14",
     "@types/react-dom": "^16.0.5",
+    "@types/react-select": "^2.0.3",
+    "css-loader": "^1.0.0",
     "html-webpack-plugin": "^3.2.0",
     "source-map-loader": "^0.2.3",
+    "style-loader": "^0.23.0",
     "ts-loader": "^4.3.0",
     "typescript": "^2.8.3",
     "webpack": "^4.8.3",
