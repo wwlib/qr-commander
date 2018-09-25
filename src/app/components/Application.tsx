@@ -7,7 +7,6 @@ import QRImagePanel from './QRImagePanel';
 
 const prettyjson = require('prettyjson');
 const QRCode = require('qrcode');
-const JsBarcode = require('jsbarcode');
 
 export interface ApplicationProps { model: Model }
 export interface ApplicationState {

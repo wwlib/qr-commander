@@ -14,4 +14,6 @@ v.9.4
 ```
 yarn
 yarn start
+
+http://localhost:3000/
 ```
