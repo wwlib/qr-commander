@@ -1,5 +1,8 @@
 # qr-commander
 
+![qr-commander](./docs/qr-commander.png)
+
+
 A site for generating codes for Jibo.
 
 npm -v
@@ -10,6 +13,5 @@ v.9.4
 
 ```
 yarn
+yarn start
 ```
-
-no cli needed .
