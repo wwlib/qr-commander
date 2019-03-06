@@ -2,11 +2,9 @@
 
 ![qr-commander](./docs/qr-commander.png)
 
-[http://wwlib.org/qr-commander/](http://wwlib.org/qr-commander/)
+a react app for generating qr-commander codes for Jibo.
 
-repo: [https://github.com/wwlib/qr-commander](https://github.com/wwlib/qr-commander)
-
-A site for generating qr-commander codes for Jibo.
+site: [http://wwlib.org/qr-commander/](http://wwlib.org/qr-commander/)
 
 #### building
 
@@ -25,8 +23,8 @@ http://localhost:3000/
 
 #### enabling qr-commander on Jibo
 - Jibo software version >= 2.0.0 is required
-- Used Jibo's menu to enable qr-commander
-- Show qr-commander-generated codes to Jibo to give him things to say
+- use Jibo's menu to enable qr-commander
+- show qr-commander-generated codes to Jibo to give him things to say
 
 
 #### codes
