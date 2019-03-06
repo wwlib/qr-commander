@@ -2,8 +2,13 @@
 
 ![qr-commander](./docs/qr-commander.png)
 
+[http://wwlib.org/qr-commander/](http://wwlib.org/qr-commander/)
 
-A site for generating codes for Jibo.
+repo: [https://github.com/wwlib/qr-commander](https://github.com/wwlib/qr-commander)
+
+A site for generating qr-commander codes for Jibo.
+
+#### building
 
 npm -v
 6.4.1
@@ -25,5 +30,5 @@ http://localhost:3000/
 
 
 #### codes
- - must start with `ESML[#]` followed by text or ESML
+ - must start with `ESML[#]` followed by text or ESML (Embodied Speech Markup Language)
  - see the Examples pulldown for ESML examples

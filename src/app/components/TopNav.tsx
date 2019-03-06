@@ -22,6 +22,11 @@ export default class TopNav extends React.Component<TopNavProps, TopNavState> {
             <div className="topNav" onClick={this.onButtonClicked.bind(this)} >
                 <div className="topTitle">
                     <h4>QR Commander</h4>
+                    <h4>
+                        <a href="https://github.com/wwlib/qr-commander" style={{color: 'white', paddingRight: '6px'}}>
+                            github: qr-commander
+                        </a>
+                    </h4>
                 </div>
             </div>
         );
