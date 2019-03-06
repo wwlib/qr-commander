@@ -1,11 +1,10 @@
 import * as React from "react";
-import * as ReactBootstrap from "react-bootstrap";
+// import * as ReactBootstrap from "react-bootstrap";
 import Model from '../model/Model';
 import TopNav from './TopNav';
 import QRPanel from './QRPanel';
 import QRImagePanel from './QRImagePanel';
 
-const prettyjson = require('prettyjson');
 const QRCode = require('qrcode');
 
 export interface ApplicationProps { model: Model }
