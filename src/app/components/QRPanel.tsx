@@ -60,6 +60,19 @@ export default class QRPanel extends React.Component<QRPanelProps, QRPanelState>
                             <ReactBootstrap.Button bsStyle={'success'} key={"qrText"} id={"qrText"} style = {{width: 120}}
                                 onClick={this.onButtonClicked.bind(this)}>Generate Code</ReactBootstrap.Button>
                         </td></tr>
+                        <tr><td>Notes:</td></tr>
+                        <tr><td>
+                            <div id="qrPanelNotes">
+                                <ul>
+                                    <li>Jibo software version >= 2.0.0 is required</li>
+                                    <li>use Jibo's menu to enable qr-commander</li>
+                                    <li>show qr-commander-generated codes to Jibo to give him things to say</li>
+                                    <li>codes must start with `ESML[#]` followed by text or ESML (Embodied Speech Markup Language)</li>
+                                    <li>see the Examples pulldown for ESML examples</li>
+                                    <li>github repo: <a href="https://github.com/wwlib/qr-commander">https://github.com/wwlib/qr-commander</a></li>
+                                </ul>
+                            </div>
+                        </td></tr>
 
                     </tbody>
                 </ReactBootstrap.Table>
