@@ -1,0 +1,20 @@
+.TopNav {
+	margin: 0;
+	padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: var(--top-bar-height);
+  z-index: 1000;
+}
+
+.TopTitle {
+    width: 100%;
+    background-color: #04478d;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+}

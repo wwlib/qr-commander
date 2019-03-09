@@ -1,0 +1,26 @@
+.QRPanel {
+    padding: 6px;
+    background-color: #f7f7f7;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    z-index: 100;
+    text-align: left;
+}
+
+.QRPanel textarea {
+    resize: none;
+    width: 100%;
+}
+
+.QRPanel table {
+    border-style: hidden;
+}
+
+.QRPanel td {
+    border-style: hidden;
+}
+
+.QRPanelNotes {
+    
+}
