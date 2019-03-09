@@ -70,6 +70,7 @@ export default class QRPanel extends React.Component<QRPanelProps, QRPanelState>
                                     <li>codes must start with `ESML[#]` followed by text or ESML (Embodied Speech Markup Language)</li>
                                     <li>see the Examples pulldown for ESML examples</li>
                                     <li>github repo: <a href="https://github.com/wwlib/qr-commander">https://github.com/wwlib/qr-commander</a></li>
+                                    <li><a href="https://medium.com/@andrew.rapo/keep-your-jibo-talking-and-dancing-with-qr-commander-e1f418bdac4c">medium article about qr-commander</a></li>
                                 </ul>
                             </div>
                         </td></tr>
