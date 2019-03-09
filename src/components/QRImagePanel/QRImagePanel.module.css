@@ -1,0 +1,12 @@
+.QRImagePanel {
+    padding: 6px;
+    background-color: #f7f7f7;
+    width: 90%;
+    margin: auto;
+    z-index: 100;
+    margin-top: 20px;
+}
+
+.QRImage {
+    width: 95%;
+}
