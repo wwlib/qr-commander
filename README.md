@@ -4,9 +4,9 @@
 
 a react app for generating qr-commander codes for Jibo.
 
-site: [http://wwlib.org/qr-commander/](http://wwlib.org/qr-commander/)
+site: [https://wwlib.org/qr-commander/](https://wwlib.org/qr-commander/)
 
-[http://wwlib.org](http://wwlib.org)
+[https://wwlib.org](https://wwlib.org)
 
 #### building
 
