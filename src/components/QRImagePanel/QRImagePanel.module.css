@@ -3,10 +3,20 @@
     background-color: #f7f7f7;
     width: 90%;
     margin: auto;
-    z-index: 100;
     margin-top: 20px;
+    margin-bottom: 20px;
+    z-index: 100;
 }
 
 .QRImage {
-    width: 95%;
+    width: 100%;
+}
+
+
+@media (min-width: 900px) {
+    .QRImagePanel {
+        margin: 6px;
+        margin-bottom: 20px;
+        width: 150%;
+    }
 }

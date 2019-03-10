@@ -8,7 +8,7 @@ export interface QRPanelState { qrText: string }
 export default class QRPanel extends React.Component<QRPanelProps, QRPanelState> {
 
     componentWillMount() {
-        this.setState({ qrText: '' });
+        this.setState({ qrText: 'ESML[#]hello world!' });
     }
 
     componentDidMount() {

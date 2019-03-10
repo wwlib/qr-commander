@@ -24,3 +24,12 @@
 .QRPanelNotes {
     
 }
+
+@media (min-width: 900px) {
+    .QRPanel {
+        margin: 6px;
+        margin-bottom: 20px;
+        min-width: 400px;
+        width: 50%;
+    }
+}
